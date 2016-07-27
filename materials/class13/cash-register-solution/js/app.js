@@ -32,13 +32,13 @@ $(document).ready(function () {
 		$('#entries').append('<tr><td></td><td>' + newEntry + '</td></tr>');
 
 		// 6: update total variable
-		total = total + newEntry
+		total = total + newEntry;
 
 		// 6 (ctn): update #total element
-		$('#total').text('$' + total)
+		$('#total').text('$' + total);
 
 		// 7: clear #newEntry
-		$('#newEntry').val('')
+		$('#newEntry').val('');
 	});
 
 })
